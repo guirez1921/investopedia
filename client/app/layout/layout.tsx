@@ -18,5 +18,6 @@ export default function Layout() {
         <Outlet />
       </TooltipProvider>
     </ThemeProvider>
+    // I wish I could see the stock prices in real-time.
   );
 }
