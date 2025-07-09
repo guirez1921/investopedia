@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "builds": [
+        { "src": "./index.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+        { "src": "/(.*)", "dest": "/"}
+    ],
+    "env": {
+        "GMAIL_USER": "your_gmail_address@gmail.com",
+        "GMAIL_PASS": "your_gmail_app_password"
+    }
+}
